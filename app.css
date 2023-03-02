@@ -20,7 +20,7 @@
     justify-content: space-around;
     /* padding-bottom: 30px; */
     background-color: rgb(110, 55, 197);
-    height: 80%;
+    height: 100%;
     width: 50%;
 }
 
@@ -36,7 +36,7 @@ header {
     display: flex;
     align-items: center;
     font-family: Changa;
-    font-size: 100px;
+    font-size: 60px;
     letter-spacing: 3px;
     word-spacing: 7px;
 }
