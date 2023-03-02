@@ -24,10 +24,6 @@ reset.addEventListener('click', () => {
   input = '';
 })
 
- // num = document.getElementById('userInput').value
-
-
-
 // this function allows for single digit numbers to considered ramp numbers
 // --------------------------------------------------------------------
 function rampNumber(num) {
@@ -60,6 +56,8 @@ function rampNumber(num) {
   
   // working function!
   // --------------------------------------------------------------------
+  
+  
   function numOfRampsBelow(num) {
     if (num < 0 || num > 99999) {
       return "Invalid number!";
@@ -69,9 +67,10 @@ function rampNumber(num) {
     let counter = 0;
   
     for (let i = 0; i<num ; i++) {
-      
+      console.log(num)
       //numArr.length
       if (rampNumber(i+1)) {
+        console.log(i)
         counter++
       }
     }
@@ -109,4 +108,4 @@ function rampNumber(num) {
   //   return `${counter} total ramp numbers are less than ${num}.` //The ramp numbers are: ${rampNums}
   // }
   
-  // console.log(numOfRampsBelow('56789'))
+  
